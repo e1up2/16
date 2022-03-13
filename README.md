@@ -21,8 +21,8 @@ Our review classification was based on the following:
 - 51.06% of the paid reviews were 5-star reviews, while 38.70% of the unpaid reviews were 5-star reviews
 
 
-![Filtered_df_Paid_vs_Unpaid_Reviews](filtered_df_paid_vs_unpaid.png)
-![Review_Classiffication](review_classification.png)
+![Filtered_df_Paid_vs_Unpaid_Reviews](images/filtered_df_paid_vs_unpaid.png)
+![Review_Classiffication](images/review_classification.png)
 
 
 
@@ -30,7 +30,7 @@ Our review classification was based on the following:
 ### Summary
 Of video games with 20 or more votes and where the ratio of helpful_votes to total_votes was 50% or greater, 51.06% of reviews in the vine program were 5 stars. While 38.70% of unpaid reviews in the same filetered dataset were 5 stars. On a high-level we may conclude that there is some bias toward favorable reviews from Vine members in the video game dataset.
 ###### Vine Review Analysis Summary
-![Vine_Review_Analysis_Summary](vine_review_analysis_summary.png)
+![Vine_Review_Analysis_Summary](images/vine_review_analysis_summary.png)
 
 A better way to determine bias is to compare a random sample of paid reviews to a random sample of unpaid reviews in a t-test. In this test we would compare the average number of 5-star reviews in the paid reviews to the average number of 5-star reviews in the unpaid reviews.
 
@@ -50,5 +50,5 @@ Since our study design seeks to determine if there is any positivity bias in the
    - Sample B: sufficiently large unpaid sample reviews dataset
 
 ##### Two-Sample T-Test Summary
-![Positivity_Bias_Test](positivity_bias_test.png)
+![Positivity_Bias_Test](images/positivity_bias_test.png)
 In these results, the null hypothesis states that the difference in the mean helpful_votes between the paid and unpaid 5-star reviews is 0. Because the p-value is 0.3489, which is higher than the significance level of 0.05, the decision is to accept the null hypothesis and conclude that the mean helpful_votes of 5-star reviews of the paid and unpaid reviews are similar and we say there is no positivity bias in the vine program
